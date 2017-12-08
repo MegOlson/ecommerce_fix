@@ -34,7 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass'
 gem 'devise'
 gem 'stripe'
-
+gem 'paperclip', '~> 4.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
