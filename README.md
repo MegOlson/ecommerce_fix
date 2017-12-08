@@ -24,8 +24,7 @@ Refactored ECommerce site using Ajax. Ruby/Rails is used with ActiveRecord.
    * Sign up, sign in, sign out
 * Faker adding decimal price values along with form change.
 * Added validations:
-  * Order items - quantity must be positive
-  * Products - price must be positive
+  * Order items - Positive Quantities
 
 ## Setup/Installation Requirements
 
