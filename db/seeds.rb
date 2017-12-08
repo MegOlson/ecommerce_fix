@@ -1,6 +1,7 @@
 class Seed
 
 Product.destroy_all
+Order.destroy_all
 
   def self.begin
     seed = Seed.new
