@@ -22,7 +22,7 @@ Refactored ECommerce site using Ajax. Ruby/Rails is used with ActiveRecord.
   * Added Stripe to allow users to checkout with card info.
 * Added flash messages:
    * Sign up, sign in, sign out
-* Faker adding decimal price values along with form change.
+* Faker adding decimal price values.
 * Added validations:
   * Order items - Positive Quantities
 
