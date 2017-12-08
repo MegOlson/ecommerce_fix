@@ -6,11 +6,11 @@
     <p> Unit Price: <%= number_to_currency item.product.price %> | Quantity: <%= item.quantity %> | Total Price: <%= number_to_currency (item.product.price * item.quantity) %></p>
   <% end %>
   <p>Your Total: <%= number_to_currency current_order.total_price %></p>
-  <p><%= link_to "Finalize order", finalize_path %></p>
+  <p><%= link_to "Finalize order", new_charge_path %></p>
 <% else %>
   <p>Your shopping cart is empty.</p>
 <% end %>
-
+<hr>
 <% if @previous_orders %>
   <h3>Your order history:</h3>
   <% @previous_orders.each do |order| %>
