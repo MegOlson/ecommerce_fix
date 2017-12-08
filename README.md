@@ -29,7 +29,7 @@ Refactored ECommerce site using Ajax. Ruby/Rails is used with ActiveRecord.
 ## Setup/Installation Requirements
 
 * Clone the repository: "git clone https://github.com/MegOlson/ecommerce_fix"
-* Navigate to the project directory: `cd refactor_ecommerce`
+* Navigate to the project directory: `cd ecommerce_fix`
 * Run `bundle install` and `bundle update` if needed in the terminal to install and update all Gems.
 * To set up the database:
   * Run `rake db:setup`
